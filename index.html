@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>JSON Tutorial</title>
+<script>
+  var person = {"name":"John Mulenga","nrc":"593975-11-1","gender":"male","age":18;
+  function getPerson(){
+      document.getElementById("name").innerHTML = person.name;
+      document.getElementById("nrc").innerHTML = person.nrc;
+      document.getElementById("gender").innerHTML = person.gender;
+      document.getElementById("age").innerHTML = person.age;
+  }
+</script>
+<style>
+#name,#nrc{
+  font-family:Arial,Helvetica,Sans-serif;
+}
+</style>
+
+</head>
+<body onload="getPerson()">
+<label>Name:</label><span id="name"></span><br/>
+<label>NRC:</label><span id="nrc"></span><br/>
+<label>Gender:</label><span id="gender"></span><br/>
+<label>Age:</label><span id="age"></span><br/>
+</body>
+</html>
